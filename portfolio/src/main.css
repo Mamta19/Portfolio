@@ -1,0 +1,153 @@
+/* get rid of default margin and padding*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/*background-color for the body and font style*/
+
+body {
+    background-color: #ABEBC6;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/*centering website*/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#about-me {
+    width: 700px;
+    float: left;
+    margin-top: 30px;
+}
+
+.image-gallery {
+    display: block;
+    float: left;
+}
+
+.footer {
+    display: block;
+    float: left;
+}
+
+
+/*making divs block*/
+
+div,
+footer,
+header,
+nav {
+    display: block;
+}
+
+
+/*style for footer*/
+
+.footer {
+    float: left;
+}
+
+
+/*style for the aside content*/
+
+.side-bar {
+    margin-top: 20px;
+    width: 300px;
+    float: left;
+    display: block;
+}
+
+
+/*style for the buttons*/
+
+.hobby ul button {
+    background-color: gray;
+    color: white;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px gray;
+    width: 300px;
+    height: 35px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/*style fot anchor*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*style for button pointer*/
+
+button {
+    cursor: pointer;
+}
+
+
+/*style for interest box*/
+
+.int {
+    width: 300px;
+    padding: 20px;
+}
+
+
+/*style for hobby box*/
+
+.hob {
+    width: 300px;
+    padding: 20px;
+}
+
+
+/*style for experience box*/
+
+.exp {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+/*style for resume box*/
+
+.box {
+    text-align: center;
+}
+
+
+/*style for span text*/
+
+span {
+    font-weight: bold;
+}
+
+
+/*style for books box*/
+
+.class5 {
+    text-align: center;
+}
+
+
+/*style for pics*/
+
+.image-gallery img {
+    height: 250px;
+    width: 310px;
+    margin: 10px;
+}
